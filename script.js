@@ -7,7 +7,7 @@ function toggleMenu() {
 
   menuBtn.addEventListener('click', () => {
     navLinks.classList.toggle('active');
-  });
+  })
 }
 
 // Function to close the menu when a link is clicked (useful for small screens)
@@ -41,8 +41,8 @@ function handleReservationForm() {
     console.log(`Time: ${time}`);
     console.log(`People: ${people}`);
 
-    // Clear the form fields after submission
-    reservationForm.reset();
+    // clear reservationForm after submit the data
+   // reservationForm.reset();
   });
 }
 
